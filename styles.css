@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 20px;
+  padding: 0;
+}
+
+/* H1 Style */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input Field Style */
+#todoInput {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#todoInput:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+}
+
+/* Add Button Style */
+#addButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #005fa3;
+}
+
+/* To-Do List Styles */
+#todoList {
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 0;
+}
+
+#todoList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Item Hover Effect */
+#todoList li:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Remove Button Styles */
+#todoList li button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#todoList li button:hover {
+  background-color: #cc0000;
+}
+
